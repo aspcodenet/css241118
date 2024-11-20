@@ -10,30 +10,33 @@
 <body>
     <header>
         <div>
-            <i class='bx bxs-cat'></i>
-            Cat
+            <i class='bx bxs-dog'></i>
+            Dog
             Lovers Yy           
         </div>
         <nav>
-            <ul >
-                <li><a href="#home">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <ul class="headermenu">
+                <li><a class="headermenuitem" href="#home">Home</a></li>
+                <li><a class="headermenuitem" href="#">Services</a></li>
+                <li><a class="headermenuitem" href="#products">Products</a></li>
+                <li><a class="headermenuitem" href="#">About</a></li>
+                <li><a class="headermenuitem" href="#contact">Contact</a></li>
             </ul>
         </nav>
+        <div>
+            <i class='bx bx-menu'></i>
+        </div>
 
     </header>
     <main>
-        <h1>Våra produkter</h1>
-        <section>
+        <h1 class="productHeader">Våra produkter</h1>
+        <section class="products">
             <article>
                 <img src="https://picsum.photos/300/300?1">
                 <div>
                     <div >Kaffemugg</div>
                     <div>Lorem, ipsum dolor.</div>
-                    <a href="#">Purchase</a>
+                    <a class="primary-button" href="#">Purchase</a>
                 </div>
             </article>
             <article>
@@ -41,7 +44,7 @@
                 <div>
                     <div >Penna</div>
                     <div>Lorem ipsum dolor sit.</div>
-                    <a href="#">Purchase</a>
+                    <a class="primary-button" href="#">Purchase</a>
                 </div>
             </article>
             <article>
@@ -49,7 +52,7 @@
                 <div>
                     <div >Dator</div>
                     <div>Lorem ipsum dolor sit.</div>
-                    <a href="#">Purchase</a>
+                    <a class="secondary-button" href="#">Purchase</a>
                 </div>
             </article>
             <article>
@@ -57,7 +60,7 @@
                 <div>
                     <div >Dator2</div>
                     <div>Lorem ipsum dolor sit.</div>
-                    <a href="#">Purchase</a>
+                    <a class="primary-button" href="#">Purchase</a>
                 </div>
             </article>
             <article>
@@ -65,15 +68,19 @@
                 <div>
                     <div >Dator3</div>
                     <div>Lorem ipsum dolor sit.</div>
-                    <a href="#">Purchase</a>
+                    <a class="primary-button" href="#">Purchase</a>
                 </div>
             </article>
 
 
         </section>
+        <section>
+            <h2>Create account</h2>
+            <a href="/createaccount.html">Create account</a>
+        </section>
     </main>
     <footer>
-        (C) Stefan
+        (C) Stefan <a href="/contact.html">Kontakta oss</a>
     </footer>
 </body>
 </html>
