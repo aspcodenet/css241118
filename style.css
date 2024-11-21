@@ -93,6 +93,12 @@ main{
 }
 
 
+.quotes{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
 
 
 article a {
@@ -118,7 +124,7 @@ article a {
     margin: 30px;
     border-radius: 50px;
     font-weight:700;
-    font-size:30px; 
+    font-size:16px; 
     color:black;
     background-color: var(--primarybutton-color);
     display:inline-block;  
@@ -137,7 +143,7 @@ article a {
     margin: 30px;
     border-radius: 50px;
     font-weight:700;
-    font-size:30px; 
+    font-size:16px; 
     color:black;
     background-color: var(--secondary-color);
     display:inline-block;  
@@ -145,3 +151,26 @@ article a {
 }
 
 
+table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+thead th {
+    background-color: #FAC748;
+    color: #000000;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 12px 15px;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.quoteHeader{
+    margin: 60px 0px 30px;
+}
