@@ -179,3 +179,9 @@ td {
     text-align: center;
 }
 
+
+.plusHeader{
+    padding: 30px 0px 0px;
+    margin: 30px 0px;
+    font-size: 30px;
+}
