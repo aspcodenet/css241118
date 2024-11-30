@@ -48,16 +48,57 @@
       
 
     <section class="container">
+      <h1>Kontakta oss</h1>
+      <form id="form1" novalidate>
+
+
+
+        <div class="formrow">
+          <label for="lastname">Lastname</label>
+          <input type="text"  id="lastname" name="lastname" data-pristine-required-message="Skriv in ett lastnamn dummer"
+          data-pristine-minlength-message="Men är inte ditt lastnamn längre än ett tecken?"
+          required minlength="2" maxlength="40">
+        </div>
+
+
+
+
         <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <label for="yourname" class="form-label">Name</label>
+          <input type="text" class="form-control" id="yourname" name="yourname" data-pristine-required-message="Skriv in ett namn dummer"
+          data-pristine-minlength-message="Men är inte ditt namn längre än ett tecken?"
+          required minlength="2" maxlength="40">
+        </div>
+
+        <div class="mb-3">
+          <label for="reason" class="form-label">Reason</label>
+          <select class="form-control" name="reason" id="reason">
+              <option value="">Select your readon to contact us</option>
+              <option value="order">Order question</option>
+              <option value="other">Other</option>
+          </select>
+        </div>
+
+
+        <div class="mb-3">
+            <label for="youremail" class="form-label">Email</label>
+            <input type="email" class="form-control" id="youremail" name="youremail" required>
           </div>
           <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <label for="yourage" class="form-label">Your age</label>
+            <input type="number" class="form-control" id="yourage" name="yourage" >
           </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+          </div>
+          <div class="bm-3">
+            <button  class="btn btn-outline-success" type="submit">Submit</button>
+          </div>
+        </form>
     </section>
 
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
     <div class="card" style="width: 18rem;">
@@ -71,5 +112,10 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/pristinejs@1.1.0/dist/pristine.min.js"></script>
+    <script src="initpristine.js"></script>
+
+  </body>
 </html>
